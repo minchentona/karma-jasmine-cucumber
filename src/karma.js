@@ -3,7 +3,7 @@
 var path = require('path');
 
 function init (files) {
-  var jasmineCucumberPath = path.join(__dirname, '/../node_modules/jasmine-cucumber/');
+  var jasmineCucumberPath = path.join(__dirname, '/../../../node_modules/jasmine-cucumber/');
     var jasmineAdapterFound = false;
     for (var i = 0; i < files.length; i++){
         // need to inject our adapter after the jasmine adapter so that we can wrap it
