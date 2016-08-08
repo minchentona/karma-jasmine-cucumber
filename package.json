@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/DealerDotCom/karma-jasmine-cucumber/issues"
   },
-  "dependencies": {
+  "peerDependencies": {
     "jasmine-cucumber": "~1",
     "phantomjs": "~1.9.11",
     "karma-phantomjs-launcher": "~0.1.3",
